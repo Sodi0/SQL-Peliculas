@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hint_Titulo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hint_Genero"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hint_Director"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_anio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hint_Año"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <RatingBar
+        android:id="@+id/rating_puntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:isIndicator="true"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_resenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hint_Reseña"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Salir"
+        android:textSize="18sp"/>
+
+</LinearLayout>

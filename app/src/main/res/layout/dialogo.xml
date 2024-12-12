@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/txt_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint_Titulo"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/txt_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint_Genero"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txt_director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint_Director"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/txt_anio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint_Año"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <RatingBar
+        android:id="@+id/rating_puntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <EditText
+        android:id="@+id/txt_resenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint_Reseña"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_marginEnd="4dp"
+            android:minHeight="48dp"
+            android:text="@string/Guardar" />
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_marginStart="4dp"
+            android:minHeight="48dp"
+            android:text="@string/Cancelar" />
+    </LinearLayout>
+</LinearLayout>

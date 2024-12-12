@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SQL-Peliculas</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="Hint_Nombre">Ingrese su nombre</string>
+    <string name="Titulo">Mis reseñas</string>
+
+
+    <string name="Ingresar">Ingresar</string>
+    <string name="Hint_Titulo">Título de la película</string>
+    <string name="Hint_Genero">Genero de la película</string>
+    <string name="Hint_Director">Director de la película</string>
+    <string name="Hint_Año">Año de la película</string>
+    <string name="Hint_Reseña">Escribe tu reseña</string>
+
+    <string name="Guardar">Guardar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Salir">Salir</string>
+
+
+</resources>
