@@ -1,4 +1,6 @@
 # Aplicación de Gestión de Reseñas de Películas
+>[!NOTE] 
+>Proyecto para la asignatura programacion Android
 
 Este proyecto es una aplicación Android para gestionar reseñas de películas. Permite a los usuarios agregar, editar, eliminar y visualizar reseñas almacenadas en una base de datos SQLite.
 
